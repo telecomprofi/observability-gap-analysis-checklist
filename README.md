@@ -112,12 +112,16 @@ examples of alert use cases:
 - [ ] 	latency is over 3500msec for 2 consecutive checks from 2 Geo regions
 - [ ] 	Does the service have an entry on the status page?
 
-### Cost - SaaS/PaaS/IaaS
+### Costs control - SaaS/PaaS/IaaS
 - [ ] 	IaaC code cost is estimate before change is applied to Production
 - [ ] 	Cloud cost estimate thresholds are set and responsible FinOps team/TeamLead are alerted
 - [ ] 	Logs/traces/metrics ingest & retention cost thresholds are set and FinOps team/TeamLead are alerted
+- [ ] 	Sampling is apllied to traces to decrease costs
+- [ ] 	Filtering is applied to metrics and logs to decrease ingest/storage costs
+- [ ] 	Reasonable retention periods are set for logs/metrics/traces
+- [ ] 	Old monitoringn data is automatically moved to cheaper storage options over set periods (hot -> warm -> cold storage)
 
-### On-call rotations
+### On-call rotation
 
 Alert escalation path - per technology/tier - e.g. FE/BE/DB:
 - [ ] 	Documented
