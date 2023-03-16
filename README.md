@@ -2,6 +2,12 @@
 
 Checklist for fast assessment of Application/Service/Infra's observability maturity and production readiness from SRE/Ops point of view
 
+### Business KPIs/metrics 
+- SRE teaches us that since every service is for businees we should prioritize business metrics over technical
+- [ ] Number of active users connected
+- [ ] Number of successful transactions (sales, purchases, etc)
+- etc
+
 ### Infra monitoring
 
 Metrics are exposed by host/vm/orchestrator and ingested into standard Observability Platform:
