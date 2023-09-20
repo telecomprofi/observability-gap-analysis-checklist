@@ -1,6 +1,10 @@
+
 # observability-gap-analysis-checklist
 
 Checklist for fast assessment of Application/Service/Infra's observability maturity and production readiness from SRE/Ops point of view
+
+![image](https://github.com/telecomprofi/observability-gap-analysis-checklist/assets/17558124/9cd67611-e9ea-46a5-bb4c-79dd98e63ffd)
+
 
 ### Business KPIs/metrics 
 - SRE teaches us that since every service is for businees we should prioritize business metrics over technical
